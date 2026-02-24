@@ -1,0 +1,12 @@
+/* .flex の中にある .image の中の img にスタイルを当てる */
+
+.flex .image img {
+
+  width: 100%;              /* 横幅を親要素いっぱい（100%）に広げる */
+
+  height: 700px;            /* 高さを700pxに固定する */
+
+  object-fit: cover;        /* 縦横比を保ったまま枠いっぱいに表示（はみ出た部分は切れる） */
+
+  vertical-align: bottom;   /* 画像の下にできる小さな隙間をなくす */
+}
