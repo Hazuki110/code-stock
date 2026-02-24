@@ -10,3 +10,18 @@
 
   vertical-align: bottom;   /* 画像の下にできる小さな隙間をなくす */
 }
+
+
+
+
+/* .flex の中にある .recipe の中の .content-title にスタイルを当てる */
+.flex .recipe .content-title {
+
+  border-bottom: solid 1px #ccc;  /* 下に1pxのグレー(#ccc)の線を引く */
+
+  font-size: 1.25rem;             /* 文字サイズを1.25remにする（親の基準サイズの1.25倍） */
+
+  padding-bottom: 5px;            /* 文字と下線の間に5pxの内側余白をつける */
+
+  margin: 40px 0 15px 0;          /* 外側余白：上40px、右0、下15px、左0 */
+}
